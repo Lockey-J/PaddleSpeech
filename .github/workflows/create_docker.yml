@@ -33,4 +33,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            hyzaw/jd_h5st_server:latest
+            rystudy/PaddleSpeech:latest
