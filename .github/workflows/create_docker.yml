@@ -1,12 +1,8 @@
 name: 构建镜像
 
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - develop
   watch:
-    types:stared
+    types: started
 
 jobs:
   build-and-push:
